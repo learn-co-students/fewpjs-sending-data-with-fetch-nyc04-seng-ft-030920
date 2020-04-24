@@ -424,10 +424,10 @@ using `fetch()`. This request should include:
 
 On a successful POST request, expect the server to respond with a
 [`Response`][response] object. Just like we saw earlier in the dog example, the
-`body` property of this response will contain the data from the POST request
+`body` property  of this response will contain the data from the POST request
 along with a newly assigned _id_.
 
-Use a `then()` call to access the `Response` object and use its built in
+Use a `then()` callto access the `Response` object and use its built in
 `json()` method to parse the contents of the `body` property. Use a _second_
 `then()` to access this newly converted object. From this object, find the new
 id and append this value to the DOM.
